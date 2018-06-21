@@ -10,4 +10,8 @@ class App < Sinatra::Base
     erb :create_puppy
   end
 
+  post '/new' do
+    binding.pry
+  end
+
 end
