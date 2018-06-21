@@ -1,8 +1,8 @@
 require 'pry'
 class Puppy
-  attr_accessor :name, :age, :breed
+  attr_accessor :name, :breed, :age
 
-  def initialize(name, age, breed)
+  def initialize(name, breed, age)
     @name = name
     @age = age
     @breed = breed
