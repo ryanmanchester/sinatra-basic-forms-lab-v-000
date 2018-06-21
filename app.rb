@@ -12,6 +12,7 @@ class App < Sinatra::Base
   end
 
   post '/new' do
+    binding.pry
     erb :display_puppy
   end
 
