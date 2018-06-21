@@ -6,4 +6,8 @@ class App < Sinatra::Base
     erb :index
   end
 
+  get '/new' do
+    erb :display_puppy
+  end
+
 end
